@@ -1,3 +1,12 @@
+<style>
+    .product-img-container {
+    width: 100%;
+    height: 200px; 
+    overflow: hidden;
+    
+}
+</style>
+
 <div class="row">
 <a href="?c=companies&m=create" class="btn btn-primary">Crear nuevo compañia</a>
     <div class="col-md-6 col-lg-4 col-xl-3">
@@ -11,7 +20,7 @@
                             class="mdi mdi-close"></i></a>
                 </div>
 
-                <div class="bg-light">
+                <div class="bg-light product-img-container">
                     <img src="assets/images/products/3d_titandecko_3.jpg" alt="product-pic" class="img-fluid">
                 </div>
 
@@ -47,7 +56,7 @@
                             class="mdi mdi-close"></i></a>
                 </div>
 
-                <div class="bg-light">
+                <div class="bg-light product-img-container">
                     <img src="assets/images/products/3dboard_titandecko.jpg" alt="product-pic" class="img-fluid">
                 </div>
 
@@ -83,7 +92,7 @@
                             class="mdi mdi-close"></i></a>
                 </div>
 
-                <div class="bg-light">
+                <div class="bg-light product-img-container">
                     <img src="assets/images/products/In Bound In the bluff.png" alt="product-pic" class="img-fluid">
                 </div>
 
@@ -119,7 +128,7 @@
                             class="mdi mdi-close"></i></a>
                 </div>
 
-                <div class="bg-light">
+                <div class="bg-light product-img-container">
                     <img src="assets/images/products/panel3d.jpeg" alt="product-pic" class="img-fluid">
                 </div>
 
@@ -154,7 +163,7 @@
                             class="mdi mdi-close"></i></a>
                 </div>
 
-                <div class="bg-light">
+                <div class="bg-light product-img-container">
                     <img src="assets/images/products/Piso laminado 8mm roble.png" alt="product-pic" class="img-fluid">
                 </div>
 
@@ -189,7 +198,7 @@
                             class="mdi mdi-close"></i></a>
                 </div>
 
-                <div class="bg-light">
+                <div class="bg-light product-img-container">
                     <img src="assets/images/products/piso laminado Harbour Oak Grey.png" alt="product-pic" class="img-fluid">
                 </div>
 
@@ -224,7 +233,7 @@
                             class="mdi mdi-close"></i></a>
                 </div>
 
-                <div class="bg-light">
+                <div class="bg-light product-img-container">
                     <img src="assets/images/products/piso laminado Oak brwn.png" alt="product-pic" class="img-fluid">
                 </div>
 
@@ -259,7 +268,7 @@
                             class="mdi mdi-close"></i></a>
                 </div>
 
-                <div class="bg-light">
+                <div class="bg-light product-img-container">
                     <img src="assets/images/products/piso laminado Old Pine.png" alt="product-pic" class="img-fluid">
                 </div>
 
@@ -280,7 +289,10 @@
                         </div>
                     </div> <!-- end row -->
                 </div> <!-- end product info-->
+                <hr>
+               
             </div>
         </div> <!-- end card-->
-    </div> <!-- end col-->
+    </div>
+    <!-- end col-->
 </div>
