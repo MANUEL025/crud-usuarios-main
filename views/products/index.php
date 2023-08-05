@@ -52,7 +52,7 @@
                 <div class="product-info">
                     <div class="row align-items-center">
                         <div class="col">
-                            <h5 class="font-16 mt-0 sp-line-1"><a href="ecommerce-product-detail.html"
+                            <h5 class="font-16 mt-0 sp-line-1"><a href="?c=products&m=show"
                                     class="text-dark">Pared 3D fibra vegetal caja x 4 paneles </a> </h5>
                             <div class="text-warning mb-2 font-13">
                                 <div class="col-auto">
@@ -88,7 +88,7 @@
                 <div class="product-info">
                     <div class="row align-items-center">
                         <div class="col">
-                            <h5 class="font-16 mt-0 sp-line-1"><a href="ecommerce-product-detail.html"
+                            <h5 class="font-16 mt-0 sp-line-1"><a href="?c=products&m=show"
                                     class="text-dark">Pared 3D fibra vegetal caja x 4 paneles </a> </h5>
                             <div class="text-warning mb-2 font-13">
                                 <div class="col-auto">
@@ -124,7 +124,7 @@
                 <div class="product-info">
                     <div class="row align-items-center">
                         <div class="col">
-                            <h5 class="font-16 mt-0 sp-line-1"><a href="ecommerce-product-detail.html"
+                            <h5 class="font-16 mt-0 sp-line-1"><a href="?c=products&m=show"
                                     class="text-dark">Pared 3D fibra vegetal caja x 4 paneles </a> </h5>
                             <div class="text-warning mb-2 font-13">
                                 <div class="col-auto">
@@ -160,7 +160,7 @@
                 <div class="product-info">
                     <div class="row align-items-center">
                         <div class="col">
-                            <h5 class="font-16 mt-0 sp-line-1"><a href="ecommerce-product-detail.html"
+                            <h5 class="font-16 mt-0 sp-line-1"><a href="?c=products&m=show"
                                     class="text-dark">Pared 3D fibra vegetal caja x 4 paneles </a> </h5>
                             <div class="text-warning mb-2 font-13">
                                 <div class="col-auto">
@@ -195,7 +195,7 @@
                 <div class="product-info">
                     <div class="row align-items-center">
                         <div class="col">
-                            <h5 class="font-16 mt-0 sp-line-1"><a href="ecommerce-product-detail.html"
+                            <h5 class="font-16 mt-0 sp-line-1"><a href="?c=products&m=show"
                                     class="text-dark">Pared 3D fibra vegetal caja x 4 paneles </a> </h5>
                             <div class="text-warning mb-2 font-13">
                                 <div class="col-auto">
@@ -231,7 +231,7 @@
                 <div class="product-info">
                     <div class="row align-items-center">
                         <div class="col">
-                            <h5 class="font-16 mt-0 sp-line-1"><a href="ecommerce-product-detail.html"
+                            <h5 class="font-16 mt-0 sp-line-1"><a href="?c=products&m=show"
                                     class="text-dark">Pared 3D fibra vegetal caja x 4 paneles </a> </h5>
                             <div class="text-warning mb-2 font-13">
                                 <div class="col-auto">
@@ -266,7 +266,7 @@
                 <div class="product-info">
                     <div class="row align-items-center">
                         <div class="col">
-                            <h5 class="font-16 mt-0 sp-line-1"><a href="ecommerce-product-detail.html"
+                            <h5 class="font-16 mt-0 sp-line-1"><a href="?c=products&m=show"
                                     class="text-dark">Pared 3D fibra vegetal caja x 4 paneles </a> </h5>
                             <div class="text-warning mb-2 font-13">
                                 <div class="col-auto">
@@ -292,6 +292,7 @@
                             class="mdi mdi-pencil"></i></a>
                     <a href="?c=products&m=edit" class="btn btn-danger btn-xs waves-effect waves-light"><i
                             class="mdi mdi-close"></i></a>
+                            
                 </div>
 
                 <div class="bg-light product-img-container">
@@ -301,7 +302,7 @@
                 <div class="product-info">
                     <div class="row align-items-center">
                         <div class="col">
-                            <h5 class="font-16 mt-0 sp-line-1"><a href="ecommerce-product-detail.html"
+                            <h5 class="font-16 mt-0 sp-line-1"><a href="?c=products&m=show"
                                     class="text-dark">Pared 3D fibra vegetal caja x 4 paneles </a> </h5>
                             <div class="text-warning mb-2 font-13">
                                 <div class="col-auto">
