@@ -11,7 +11,7 @@
                         <ol class="breadcrumb m-0">
                             <li class="breadcrumb-item"><a href="?c=dashboard&m=dashboard">Inicio</a></li>
                             <li class="breadcrumb-item"><a href="?c=products&m=index">Productos</a></li>
-                            <li class="breadcrumb-item"><a href="?c=products&m=edit">Productos</a></li>
+                            <li class="breadcrumb-item"><a href="?c=products&m=edit">Agregar / Editar producto</a></li>
 
                         </ol>
                     </div>
@@ -29,30 +29,29 @@
                         <h5 class="text-uppercase bg-light p-2 mt-0 mb-3">General</h5>
 
                         <div class="mb-3">
-                            <label for="product-name" class="form-label">Product Name <span
+                            <label for="product-name" class="form-label">Nombre del Producto <span
                                     class="text-danger">*</span></label>
-                            <input type="text" id="product-name" class="form-control" placeholder="e.g : Apple iMac">
+                            <input type="text" id="product-name" class="form-control" placeholder="ejem : Ceramicos">
                         </div>
 
                         <div class="mb-3">
-                            <label for="product-reference" class="form-label">Reference <span
+                            <label for="product-reference" class="form-label">Referencia <span
                                     class="text-danger">*</span></label>
-                            <input type="text" id="product-reference" class="form-control"
-                                placeholder="e.g : Apple iMac">
+                            <input type="text" id="product-reference" class="form-control" placeholder="ejem : SP049">
                         </div>
 
 
 
                         <div class="mb-3">
-                            <label for="product-summary" class="form-label">Product Summary</label>
+                            <label for="product-summary" class="form-label">Descripcion del Producto</label>
                             <textarea class="form-control" id="product-summary" rows="3"
-                                placeholder="Please enter summary"></textarea>
+                                placeholder="ingrese una descripcion"></textarea>
                         </div>
 
 
                         <div class="mb-3">
-                            <label for="product-price">Price <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control" id="product-price" placeholder="Enter amount">
+                            <label for="product-price">Precio <span class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="product-price" placeholder="Ingrese un precio">
                         </div>
 
                         <div class="mb-3">
@@ -62,25 +61,18 @@
                                 <div class="form-check me-2">
                                     <input class="form-check-input" type="radio" name="radioInline" value="option1"
                                         id="inlineRadio1" checked="">
-                                    <label class="form-check-label" for="inlineRadio1">Online</label>
+                                    <label class="form-check-label" for="inlineRadio1">en stock</label>
                                 </div>
                                 <div class="form-check me-2">
                                     <input class="form-check-input" type="radio" name="radioInline" value="option2"
                                         id="inlineRadio2">
-                                    <label class="form-check-label" for="inlineRadio2">Offline</label>
+                                    <label class="form-check-label" for="inlineRadio2">no disponible</label>
                                 </div>
-                                <div class="form-check me-2">
-                                    <input class="form-check-input" type="radio" name="radioInline" value="option3"
-                                        id="inlineRadio3">
-                                    <label class="form-check-label" for="inlineRadio3">Draft</label>
-                                </div>
+
                             </div>
                         </div>
 
-                        <div>
-                            <label class="form-label">Comment</label>
-                            <textarea class="form-control" rows="3" placeholder="Please enter comment"></textarea>
-                        </div>
+
                     </div>
                 </div> <!-- end card -->
             </div> <!-- end col -->
@@ -89,7 +81,7 @@
 
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="text-uppercase mt-0 mb-3 bg-light p-2">Product Images</h5>
+                        <h5 class="text-uppercase mt-0 mb-3 bg-light p-2">Imagenes del Producto</h5>
 
                         <form action="/" method="post" class="dropzone dz-clickable" id="myAwesomeDropzone"
                             data-plugin="dropzone" data-previews-container="#file-previews"
@@ -99,8 +91,8 @@
                             <div class="dz-message needsclick">
                                 <i class="h1 text-muted dripicons-cloud-upload"></i>
                                 <h3>Drop files here or click to upload.</h3>
-                                <span class="text-muted font-13">(This is just a demo dropzone. Selected files are
-                                    <strong>not</strong> actually uploaded.)</span>
+                                <input type="file" id="imagen" name="imagen" accept="image/*">
+                                
                             </div>
                         </form>
 
@@ -109,28 +101,7 @@
                     </div>
                 </div> <!-- end col-->
 
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="text-uppercase mt-0 mb-3 bg-light p-2">Meta Data</h5>
-
-                        <div class="mb-3">
-                            <label for="product-meta-title" class="form-label">Meta title</label>
-                            <input type="text" class="form-control" id="product-meta-title" placeholder="Enter title">
-                        </div>
-
-                        <div class="mb-3">
-                            <label for="product-meta-keywords" class="form-label">Meta Keywords</label>
-                            <input type="text" class="form-control" id="product-meta-keywords"
-                                placeholder="Enter keywords">
-                        </div>
-
-                        <div>
-                            <label for="product-meta-description" class="form-label">Meta Description </label>
-                            <textarea class="form-control" rows="5" id="product-meta-description"
-                                placeholder="Please enter description"></textarea>
-                        </div>
-                    </div>
-                </div> <!-- end card -->
+               
 
             </div> <!-- end col-->
         </div>
@@ -145,31 +116,11 @@
                 </div>
             </div> <!-- end col -->
         </div>
-        <!-- end row -->
+       
 
 
         <!-- file preview template -->
-        <div class="d-none" id="uploadPreviewTemplate">
-            <div class="card mt-1 mb-0 shadow-none border">
-                <div class="p-2">
-                    <div class="row align-items-center">
-                        <div class="col-auto">
-                            <img data-dz-thumbnail="" src="#" class="avatar-sm rounded bg-light" alt="">
-                        </div>
-                        <div class="col ps-0">
-                            <a href="javascript:void(0);" class="text-muted fw-bold" data-dz-name=""></a>
-                            <p class="mb-0" data-dz-size=""></p>
-                        </div>
-                        <div class="col-auto">
-                            <!-- Button -->
-                            <a href="" class="btn btn-link btn-lg text-muted" data-dz-remove="">
-                                <i class="dripicons-cross"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
 
 
     </div> <!-- container -->

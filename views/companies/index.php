@@ -29,7 +29,7 @@
                                         <td>Calle falsa 1 2 3</td>
                                         <td>0800045215154</td>
                                         <td> 
-                                            <img src="assets/images/logococa.png"  alt="">
+                                        <img src="assets/images/logococa.jpeg" alt="" width="50px">
                                             
                                         </td>
                                         <td>
@@ -42,15 +42,7 @@
                                 </tbody>
                             </table>
                           </div>
-                          <nav aria-label="Page navigation example">
-  <ul class="pagination">
-    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item"><a class="page-link" href="#">Next</a></li>
-  </ul>
-</nav>
+  
                     </div>
                 </div>
             </div>

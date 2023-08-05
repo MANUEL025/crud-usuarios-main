@@ -3,15 +3,40 @@
         width: 100%;
         height: 200px;
         overflow: hidden;
-
     }
+    .page-title-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  .page-title {
+    margin: 0;
+    padding-left: 100px;
+  }
+  .bnt2{
+    margin-right: 50px;
+
+  }
+
 </style>
 
+
 <div class="row">
-    <a href="?c=companies&m=create" class="btn btn-primary">Crear nuevo compañia</a>
+<div class="page-title-box">
+    <h4 class="page-title">Productos</h4>
+    <a href="?c=products&m=edit" class="btn btn-primary bnt2" >Crear nuevo producto</a>
+</div>
+      
+    
+
+    
     <div class="col-md-6 col-lg-4 col-xl-3">
+        
         <div class="card product-box">
+            
             <div class="card-body">
+                
 
                 <div class="product-action">
                     <a href="?c=products&m=edit" class="btn btn-success btn-xs waves-effect waves-light"><i
@@ -157,9 +182,9 @@
         <div class="card product-box">
             <div class="card-body">
                 <div class="product-action">
-                    <a href="javascript: void(0);" class="btn btn-success btn-xs waves-effect waves-light"><i
+                    <a href="?c=products&m=edit" class="btn btn-success btn-xs waves-effect waves-light"><i
                             class="mdi mdi-pencil"></i></a>
-                    <a href="javascript: void(0);" class="btn btn-danger btn-xs waves-effect waves-light"><i
+                    <a href="?c=products&m=edit" class="btn btn-danger btn-xs waves-effect waves-light"><i
                             class="mdi mdi-close"></i></a>
                 </div>
 
@@ -192,9 +217,9 @@
         <div class="card product-box">
             <div class="card-body">
                 <div class="product-action">
-                    <a href="javascript: void(0);" class="btn btn-success btn-xs waves-effect waves-light"><i
+                    <a href="?c=products&m=edit" class="btn btn-success btn-xs waves-effect waves-light"><i
                             class="mdi mdi-pencil"></i></a>
-                    <a href="javascript: void(0);" class="btn btn-danger btn-xs waves-effect waves-light"><i
+                    <a href="?c=products&m=edit" class="btn btn-danger btn-xs waves-effect waves-light"><i
                             class="mdi mdi-close"></i></a>
                 </div>
 
@@ -228,9 +253,9 @@
         <div class="card product-box">
             <div class="card-body">
                 <div class="product-action">
-                    <a href="javascript: void(0);" class="btn btn-success btn-xs waves-effect waves-light"><i
+                    <a href="?c=products&m=edit" class="btn btn-success btn-xs waves-effect waves-light"><i
                             class="mdi mdi-pencil"></i></a>
-                    <a href="javascript: void(0);" class="btn btn-danger btn-xs waves-effect waves-light"><i
+                    <a href="?c=products&m=edit" class="btn btn-danger btn-xs waves-effect waves-light"><i
                             class="mdi mdi-close"></i></a>
                 </div>
 
@@ -263,9 +288,9 @@
         <div class="card product-box">
             <div class="card-body">
                 <div class="product-action">
-                    <a href="javascript: void(0);" class="btn btn-success btn-xs waves-effect waves-light"><i
+                    <a href="?c=products&m=edit" class="btn btn-success btn-xs waves-effect waves-light"><i
                             class="mdi mdi-pencil"></i></a>
-                    <a href="javascript: void(0);" class="btn btn-danger btn-xs waves-effect waves-light"><i
+                    <a href="?c=products&m=edit" class="btn btn-danger btn-xs waves-effect waves-light"><i
                             class="mdi mdi-close"></i></a>
                 </div>
 
@@ -291,6 +316,9 @@
                     </div> <!-- end row -->
                 </div> <!-- end product info-->
                 <hr>
+                
+                
+                
 
             </div>
         </div> <!-- end card-->
