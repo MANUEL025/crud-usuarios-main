@@ -92,7 +92,7 @@
                                 <i class="h1 text-muted dripicons-cloud-upload"></i>
                                 <h3>Drop files here or click to upload.</h3>
                                 <input type="file" id="imagen" name="imagen" accept="image/*">
-                                
+
                             </div>
                         </form>
 
@@ -101,7 +101,7 @@
                     </div>
                 </div> <!-- end col-->
 
-               
+
 
             </div> <!-- end col-->
         </div>
@@ -110,17 +110,20 @@
         <div class="row">
             <div class="col-12">
                 <div class="text-center mb-3">
-                    <button type="button" class="btn w-sm btn-light waves-effect">Cancel</button>
-                    <button type="button" class="btn w-sm btn-success waves-effect waves-light">Save</button>
-                    <button type="button" class="btn w-sm btn-danger waves-effect waves-light">Delete</button>
+                    <a href="?c=products&m=index" class="btn w-sm btn-light waves-effect">cancelar</a>
+                    <a href="?c=products&m=index" class="btn w-sm btn-success waves-effect waves-light">guardar</a>
+                    <a href="?c=products&m=index" class="btn w-sm btn-danger waves-effect waves-light">eliminar</a>
+
+
+
                 </div>
             </div> <!-- end col -->
         </div>
-       
+
 
 
         <!-- file preview template -->
-        
+
 
 
     </div> <!-- container -->
