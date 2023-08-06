@@ -11,9 +11,9 @@
                                 </a>
 
                                 <!-- Brand Logo Dark -->
-                                <a href="index.html" class="logo-dark">
-                                    <img src="assets/images/logo-dark.png" alt="dark logo" class="logo-lg">
-                                    <img src="assets/images/logo-sm.png" alt="small logo" class="logo-sm">
+                                <a href="?c=products&m=index" class="logo-dark">
+                                    <img src="assets/images/logo.png" alt="dark logo" class="logo-lg">
+                                    <img src="assets/images/logo.png" alt="small logo" class="logo-sm">
                                 </a>
                             </div>
 
