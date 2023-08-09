@@ -1,4 +1,4 @@
-<div class="app-menu">
+<div class="app-menu" style="background-color:  rgb(94, 155, 194);">
 
     <!-- Brand Logo -->
     <div class="logo-box">
@@ -49,7 +49,7 @@
             </li>
             <li class="menu-item">
                 <a href="#menuEcommerce" data-bs-toggle="collapse" class="menu-link">
-                    <span class="menu-icon"><i class="bi bi-shop"></i></span>
+                    <span class="menu-icon"><i data-feather="briefcase"></i></span>
                     <span class="menu-text"> Productos </span>
                     <span class="menu-arrow"></span>
                 </a>

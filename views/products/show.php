@@ -17,7 +17,7 @@
                     </div> <!-- end col -->
                     <div class="col-lg-7">
                         <div class="ps-xl-3 mt-3 mt-xl-0">
-                            <a href="#" class="text-primary">Paneles &amp; Paredes</a>
+                            <a href="?c=products&m=index" class="text-primary">Paneles &amp; Paredes</a>
                             <h4 class="mb-3"> Pared 3D fibra vegetal caja x 4 paneles (1mt²) DL064</h4>
                             <p class="text-muted float-start me-3">
                                 <span class="mdi mdi-star text-warning"></span>

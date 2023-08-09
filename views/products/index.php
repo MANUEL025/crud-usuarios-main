@@ -16,6 +16,7 @@
   }
   .bnt2{
     margin-right: 50px;
+    background-color: rgb(9, 91, 138);
 
   }
 
