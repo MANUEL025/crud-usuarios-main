@@ -2,7 +2,7 @@
 <html lang="en" data-menu-color="brand">
     <head>
         <meta charset="utf-8" />
-        <title>LavaSoft</title>
+        <title>ConstruHogar</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="./assets/js/head.js"></script>
 		<link href="./assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="app-style" />

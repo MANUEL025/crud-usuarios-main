@@ -1,13 +1,12 @@
-<div class="app-menu" style="background-color:  rgb(94, 155, 194);">
+<div class="app-menu" style="background-color: #012535;">
 
     <!-- Brand Logo -->
     <div class="logo-box">
         <!-- Brand Logo Light -->
-        <a href="index.html" class="logo-light">
-            <img src="assets/images/logo.png" alt="logo" class="logo-lg"
+        <a href="" class="">
+            <img src="assets/images/logopru.png" alt="logo" class="logo-lg"
                 style="width: 120px; height: auto; padding: 20px; margin-top:20px;">
-            <img src="assets/images/carretilla.jpeg" alt="small logo" class="logo-sm"
-                style="width: 120px; height: auto; padding: 20px; margin-top:20px;">
+            
         </a>
 
         <!-- Brand Logo Dark -->
@@ -34,13 +33,13 @@
             <li class="menu-item">
                 <a href="#menuEcommerce" data-bs-toggle="collapse" class="menu-link">
                     <span class="menu-icon"><i data-feather="briefcase"></i></span>
-                    <span class="menu-text"> Compañias </span>
+                    <span class="menu-text"> Proveedores </span>
                     <span class="menu-arrow"></span>
                 </a>
                 <div class="collapse" id="menuEcommerce">
                     <ul class="sub-menu">
                         <li class="menu-item">
-                            <a href="?c=companies&m=index" class="menu-link">
+                            <a href="?c=providers&m=index" class="menu-link">
                                 <span class="menu-text">Listar</span>
                             </a>
                         </li>

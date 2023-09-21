@@ -1,13 +1,13 @@
 <div class="navbar-custom">
-    <div class="topbar" style="background-color:rgb(155, 205, 235);" >
+    <div class="topbar" style="background-color:#012535;" >
         <div class="topbar-menu d-flex align-items-center gap-1">
 
             <!-- Topbar Brand Logo -->
             <div class="logo-box">
                 <!-- Brand Logo Light -->
                 <a href="index.html" class="logo-light">
-                    <img src="assets/images/carretilla.jpeg" alt="logo" class="logo-lg">
-                    <img src="assets/images/carretilla.jpeg" alt="small logo" class="logo-sm">
+                    <img src="assets/images/logosolo.png" alt="logo" class="logo-lg">
+                    <img src="assets/images/logosolo.png" alt="small logo" class="logo-sm">
                 </a>
 
                 <!-- Brand Logo Dark -->
@@ -266,7 +266,7 @@
             <!-- User Dropdown -->
             <li class="dropdown">
                 <a class="nav-link dropdown-toggle nav-user me-0 waves-effect waves-light" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                    <img src="assets/images/logito.png" alt="user-image" class="rounded-circle">
+                    <img src="assets/images/logosolo.png" alt="user-image" class="rounded-circle">
                     <span class="ms-1 d-none d-md-inline-block">
                         Construhogar <i class="mdi mdi-chevron-down"></i>
                     </span>
@@ -307,11 +307,7 @@
             </li>
 
             <!-- Right Bar offcanvas button (Theme Customization Panel) -->
-            <li>
-                <a class="nav-link waves-effect waves-light" data-bs-toggle="offcanvas" href="#theme-settings-offcanvas">
-                    <i class="fe-settings font-22"></i>
-                </a>
-            </li>
+            
         </ul>
     </div>
 </div>
