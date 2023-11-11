@@ -49,6 +49,22 @@
             <li class="menu-item">
                 <a href="#menuEcommerce" data-bs-toggle="collapse" class="menu-link">
                     <span class="menu-icon"><i data-feather="briefcase"></i></span>
+                    <span class="menu-text"> Usuarios </span>
+                    <span class="menu-arrow"></span>
+                </a>
+                <div class="collapse" id="menuEcommerce">
+                    <ul class="sub-menu">
+                        <li class="menu-item">
+                            <a href="?c=users&m=index" class="menu-link">
+                                <span class="menu-text">Listar</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="menu-item">
+                <a href="#menuEcommerce" data-bs-toggle="collapse" class="menu-link">
+                    <span class="menu-icon"><i data-feather="briefcase"></i></span>
                     <span class="menu-text"> Productos </span>
                     <span class="menu-arrow"></span>
                 </a>

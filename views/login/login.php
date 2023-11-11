@@ -205,7 +205,7 @@ body {
             </div>
             <div class="action centered-flex"> <label for="remember" class="centered-flex"> <input type="checkbox"
                         id="remember"> Remember me </label> <a href="#">Forget Password ?</a> </div>
-            <div class="btn-container"><a class="fcc-btn" id="btn" href="dashboard.php">freeCodeCamp</a> </div>
+            <div class="btn-container"><a class="fcc-btn" id="btn" href="dashboard.php">LOGIN</a> </div>
             <div class="signup">Don't have an Account?<a href=""> Sign up</a></div>
         </form>
     </div>
