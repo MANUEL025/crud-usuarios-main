@@ -1,7 +1,16 @@
 <?php
 
+
+
+
 class LoginController {
-    public function login() {
+    public function login(){
+        
         require_once('views/login/login.php');
+       
     }
+
 }
+
+
+?>
