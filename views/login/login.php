@@ -222,15 +222,51 @@
             </form>
         </div>
     </div>
-    <script>
-        const uname = document.getElementById('uname');
-        const pass = document.getElementById('pass');
-        const btn = document.getElementById('btn');
-        const btnContainer = document.querySelector('.btn-container');
-        const form = document.querySelector('form');
-        const msg = document.querySelector('.msg');
-        btn.disabled = true;
+    
+ 
+ <script>
+               const uname = document.getElementById('uname');
+const pass = document.getElementById('pass');
+const btn = document.getElementById('btn');
+const btnContainer = document.querySelector('.btn-container');
+const form = document.querySelector('form');
+const msg = document.querySelector('.msg');
+btn.disabled = true;
 
+function shiftButton() {
+    showMsg();
+    const positions = ['shift-left', 'shift-top', 'shift-right', 'shift-bottom'];
+    const currentPosition = positions.find(dir => btn.classList.contains(dir));
+    const nextPosition = positions[(positions.indexOf(currentPosition) + 1) % positions.length];
+    btn.classList.remove(currentPosition);
+    btn.classList.add(nextPosition);
+    btn.disabled = true;
+}
+
+function showMsg() {
+    const isEmpty = uname.value === '' || pass.value === '';
+    btn.classList.toggle('no-shift', !isEmpty);
+
+    // Validación de usuario y contraseña simulada
+    const validUsername = 'admin';
+    const validPassword = '1234';
+
+    if (!isEmpty) {
+        if (uname.value === validUsername && pass.value === validPassword) {
+            msg.innerText = '¡Genial! Ahora puedes continuar.';
+            msg.style.color = '#92ff92';
+            btn.classList.add('no-shift');
+        } else {
+            msg.style.color = 'rgb(218 49 49)';
+            msg.innerText = 'Usuario o contraseña incorrectos.';
+            btn.disabled = true; // Deshabilitar el botón si la contraseña es incorrecta
+        }
+    } else {
+        msg.style.color = 'rgb(218 49 49)';
+        msg.innerText = 'Complete los campos, por favor.';
+        btn.disabled = true;
+    }
+}
         function shiftButton() {
             showMsg();
             const positions = ['shift-left', 'shift-top', 'shift-right', 'shift-bottom'];
@@ -240,21 +276,7 @@
             btn.classList.add(nextPosition);
         }
 
-        function showMsg() {
-            const isEmpty = uname.value === '' || pass.value === '';
-            btn.classList.toggle('no-shift', !isEmpty);
-            if (isEmpty) {
-                btn.disabled = true;
-                msg.style.color = 'rgb(218 49 49)';
-                msg.innerText = 'Complete los campos, por favor.';
-            } else {
-                msg.innerText = '¡Genial! Ahora puedes continuar.';
-                msg.style.color = '#92ff92';
-                btn.disabled = false;
-                btn.classList.add('no-shift');
-            }
-        }
-
+        
         btnContainer.addEventListener('mouseover', shiftButton);
         btn.addEventListener('mouseover', shiftButton);
         btn.addEventListener('touchstart', shiftButton);
